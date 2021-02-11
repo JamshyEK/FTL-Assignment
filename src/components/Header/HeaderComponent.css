@@ -1,0 +1,21 @@
+#head-row{
+    background-color: #f3f5f2;
+    color: #777777;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+#inlineFormInputGroup{
+    background-color: #f3f5f2;
+
+    border-left: none;
+font-style: italic;}
+
+
+#input-group-text{
+
+    border-right: none;
+background-color: #f3f5f2;
+color: #6c757dc7;
+
+}
