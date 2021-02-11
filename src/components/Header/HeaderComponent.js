@@ -5,7 +5,7 @@ export default class HeaderComponent extends Component {
   render() {
     return (
    <div className="row" id="head-row">
-<div className="col-md-2 col-lg-2">
+<div className="col-md-2 col-lg-2" id="head">
 <div className="container">
     <h5><i className="fa fa-users" aria-hidden="true"></i> Users</h5>
     </div>

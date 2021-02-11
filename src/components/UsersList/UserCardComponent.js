@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {Card,Button} from 'react-bootstrap'
-import { Avatar, CardHeader, Divider } from '@material-ui/core/';
+import { CardHeader } from '@material-ui/core/';
+import './UserCardComponent.css'
 
 
 export default class UserCardComponent extends Component {
@@ -10,22 +10,20 @@ export default class UserCardComponent extends Component {
         }
   render() {
     return (
-        <div >
+        <div id="card-profile" >
      
 
 
 
                         <div className="card mb-2" style={{backgroundColor:"#f3f5f2"}} onClick={()=>this.props.modalShow(this.props.details.id)}>
                             <div className="row no-gutters">
-                                <div className="col-m-2 ">
+                                <div className="col-3 col-m-2 ">
                                     <img className="m-3 rounded-circle" src={this.props.details.img} width="100" height="100" alt="..." data-placement="right" title={"dd"} />
                                 </div>
-                                <div className="col-md-8">
+                                <div className="col-9 col-md-8">
                                     <div className="card-body">
                                         <CardHeader
-                                            // avatar={
-                                            //     <Avatar aria-label="recipe" className="bg-danger mr-2" data-placement="right" title={"kjhk"}>{"bb"}</Avatar>
-                                            // }
+                                         
                                             title={this.props.details.real_name}
                                             subheader={this.props.details.tz}
                                         />

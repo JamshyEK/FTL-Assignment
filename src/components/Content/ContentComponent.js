@@ -8,7 +8,7 @@ export default class ContentComponent extends Component {
     return (
       <>
         <div className="row">
-            <div className="col-12 col-sm-12 col-md-2 col-lg-2" style={{backgroundColor:'rgb(230 236 226 / 72%'}}>
+            <div className="col-12 col-sm-12 col-md-2 col-lg-2" id="sidebar" style={{backgroundColor:'rgb(230 236 226 / 72%'}}>
             <div className="container" id="sidebar-wrapper" >
 
             <Nav className="col-md-12 d-none d-md-block sidebar"
